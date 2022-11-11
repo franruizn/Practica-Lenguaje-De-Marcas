@@ -22,4 +22,4 @@ index.html:
 
   # Log de cambios
 
-  
+  el puto body de las putas paginas <3
