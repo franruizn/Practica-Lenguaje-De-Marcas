@@ -19,3 +19,7 @@ index.html:
   Contactos
  pagina6.html
   quienes somos
+
+  # Log de cambios
+
+  
