@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Banco Medac</title>
-    <link rel="stylesheet" type="text/css" href="index_multimedia/index.css" />
+    <link rel="stylesheet" type="text/css" href="index_multimedia/index.css"/>
+    <link rel="shortcut icon" href="index_multimedia/banco.png"/>
 </head>
 
 <body>
-    <audio src="index_multimedia/Música de Ascensor.mp3" controls loop type="Audio/mp3" autoplay></audio>
+    
     <!--Cabecera encima de la navegacion-->
-    <header>
+    <header id="cabecera">
         <!--botones de navegacion-->
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
+                <li id="imagen"><a href="index.html"> <img src="index_multimedia/logo-medac.png" width="213px" height="45px" ></a></li>
                 <li><a href="pagina1.html">Planes de Banco</a></li>
                 <li><a href="pagina2.html">Tu Cuenta</a></li>
                 <li><a href="pagina3.html">Prestamos e Inversiones</a></li>
@@ -27,25 +28,26 @@
 
     <!--body-->
     <main>
+        <audio src="index_multimedia/Música de Ascensor.mp3" loop type="Audio/mp3" autoplay></audio>
         <!--cabecera del main-->
-        <header>
+        <header id="main">
             
         </header>
 
         <!--secciones del main (puede tener varios articles)-->
         <article>
             <!--puede tener un header o no-->
-            <header>
+            <header id="article">
                 <p>Banco Medac</p>
             </header>
             <p>
                 Logo de nuestro banco
                 Un Organismo dedicado al manejo de Cuentas Bancarias e Inversiones
             </p>
-            <img src="index_multimedia/SeparadorMedac.png">
+            <div id="linea"></div>
         </article>
         <article>
-            <header>
+            <header id="article">
                 
             </header>
             <p>
