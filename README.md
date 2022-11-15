@@ -17,7 +17,7 @@ index.html:
     Seguros
  pagina5.html
   Contactos
- pagina6.html
+ 
   quienes somos
 
   # Log de cambios
