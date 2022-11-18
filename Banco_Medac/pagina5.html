@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <title>Contacto</title>
     <link rel="stylesheet" type="text/css" href="pagina5_multimedia/pagina5.css" />
-    <link rel="shortcut icon" href="index_multimedia/banco.png"/>
+    <link rel="shortcut icon" href="pagina5_multimedia/banco.png"/>
 </head>
 
 <body>
-    
+    <audio src="pagina2_multimedia/Música de Ascensor.mp3" loop type="Audio/mp3" autoplay></audio>
     <!--Cabecera encima de la navegacion-->
     <header id="cabecera">
         <!--botones de navegacion-->
         <nav>
             <ul>
-                <li id="imagen"><a href="index.html"> <img src="index_multimedia/logo-medac.png" width="213px" height="45px" ></a></li>
+                <li id="imagen"><a href="index.html"> <img src="pagina3_multimedia/logo-medac.png" width="213px" height="45px"/></a></li>
                 <li><a href="pagina1.html">Planes de Banco</a></li>
                 <li><a href="pagina2.html">Tu Cuenta</a></li>
                 <li><a href="pagina3.html">Prestamos e Inversiones</a></li>
@@ -30,26 +30,74 @@
     <main>
         <!--cabecera del main-->
         <header>
-
+            <p><img src="pagina2_multimedia/medac_gif.gif"/> Banco Medac <img src="pagina2_multimedia/medac_gif.gif"/></p>
+            <p id="subtitulo">Un Organismo dedicado al manejo de Cuentas Bancarias e Inversiones</p>
         </header>
 
-        <!--secciones del main (puede tener varios articles)-->
+        <!--Aside (publicidad de la pagina)-->
+        <aside>
+            <p>Unete ahora a nuestro plan de ahorro</p>
+            <hr>
+            <a href="pagina1.html" target="_blank"><img src="pagina2_multimedia/medac_logo_plata.png"/></a>
+            <p id="plan_plata">Plan Plata</p>
+            <hr>
+            <a href="pagina1.html" target="_blank"><img src="pagina2_multimedia/medac_logo_dorado.png"/></a>
+            <p id="plan_oro">Plan Oro</p>
+            <hr>
+            <a href="pagina1.html" target="_blank"><img src="pagina2_multimedia/medac_logo_platino.png"/></a>
+            <p id="plan_platino">Plan Platino</p>
+            <hr>
+        </aside>
         <article>
-            <!--puede tener un header o no-->
-            <header>
+            <p>Si desea ponerse en contacto con nosotros o ha tenido algún problema con nuestros servicios, por favor pongáse en contacto con nosotros
+                a través de el siguiente formulario. <br> <br>
+                Introduzca su nombre y apellido, el motivo de su consulta y a continuación explique su consulta.
+            </p>
+        </article>
 
-            </header>
+        <article>
+            <h2>Formulario</h2>
+            <label form="IBAN">Nombre y Apellido</label>
+            <input name="IBAN" type="text" value=""  readonly size="30" maxlength="8" pattern="[A-Za-z]{3}" placeholder="Nombre completo"> <br><br>
+            <label form="Cantidad">Correo Electronico</label>
+            <label form="email">Email:</label>
+            <input name="Cantidad" type="text" value=""  readonly size="30" maxlength="8" pattern="[A-Za-z]{3}" placeholder="Correo electronico"> <br><br>
+
+            <form action="#">
+                <label for="lang">Motivo</label>
+                <select name="lenguajes" id="lang">
+                    <option value="javascript">Consultas</option>
+                    <option value="php">Reclamaciones</option>
+                    <option value="java">Asitencia Tecnica</option>
+                    <option value="golang">Sugerencias</option>
+                </select>
+                <input type="submit" value="Enviar"/>
+            </form>
+            <br>
+
+            <h2>Motivo de su consulta</h2>
+            <textarea name="message" rows="10" cols="60" placeholder="Maximo 120 caracteres"></textarea>
+                                     
+            <h2>Fecha y hora</h2>
+            <label form="datetime-">Por favor, introduzca la fecha y hora exacta del momento de la incidencia:</label> <br><br>
+            <input type="datetime-local" name="bdaytime"> <br> <br>
+            <hr>
+            <img src="pagina5_multimedia/imagen.webp" alt="">
+            <p><i>Muchas gracias por confiar en nuestros servicios. <br>
+            <b>Att. CEO Banco MEDAC.</b></i></p>
         </article>
     </main>
 
-    <!--publicidad-->
-    <aside>
-
-    </aside>
-
     <!--pie de pagina-->
     <footer>
-
+        <p>Están reservados todos los derechos. Queda prohibida la reproducción, el almacenamiento en memoria electrónica o la transmisión
+            por cualquier medio electrónico, mecánico, de fotocopiado, grabación, etc., de la totalidad o parte de esta publicación sin autorización.</p>
+        <ul>
+            <li><a href="pagina5.html" target="_blank"><img src="pagina2_multimedia/telefono_blanco.png"/>Atencion al cliente</a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><img src="pagina2_multimedia/twitter_logo.png"/>Twitter</a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><img src="pagina2_multimedia/instagram_logo.png"/>Instagram</a></li>
+            <li><a href="https://es-es.facebook.com" target="_blank"><img src="pagina2_multimedia/facebook_logo.png"/>Facebook</a></li>
+        </ul>
     </footer>
 </body>
 
