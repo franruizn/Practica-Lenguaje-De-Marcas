@@ -181,6 +181,10 @@ footer ul li:hover {
     background-color: #476684;
 }
 /*CSS Personalizado para cada página*/
+main article img {
+  width: 20%;
+}
+
 table caption {
   font-weight: bold;
   text-transform: uppercase;
