@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <title>Tu Cuenta</title>
     <link rel="stylesheet" type="text/css" href="pagina2_multimedia/pagina2.css" />
-    <link rel="shortcut icon" href="index_multimedia/banco.png"/>
+    <link rel="shortcut icon" href="pagina2_multimedia/banco.png" />
 </head>
 
 <body>
-    
+    <audio src="pagina2_multimedia/Música de Ascensor.mp3" loop type="Audio/mp3" autoplay></audio>
     <!--Cabecera encima de la navegacion-->
     <header id="cabecera">
         <!--botones de navegacion-->
         <nav>
             <ul>
-                <li id="imagen"><a href="index.html"> <img src="index_multimedia/logo-medac.png" width="213px" height="45px" ></a></li>
+                <li id="imagen"><a href="index.html"> <img src="pagina2_multimedia/logo-medac.png" width="213px" height="45px"/></a></li>
                 <li><a href="pagina1.html">Planes de Banco</a></li>
                 <li><a href="pagina2.html">Tu Cuenta</a></li>
                 <li><a href="pagina3.html">Prestamos e Inversiones</a></li>
@@ -30,26 +30,93 @@
     <main>
         <!--cabecera del main-->
         <header>
-
+            <p><img src="pagina2_multimedia/medac_gif.gif"/> Banco Medac <img src="pagina2_multimedia/medac_gif.gif"/></p>
+            <p id="subtitulo">Un Organismo dedicado al manejo de Cuentas Bancarias e Inversiones</p>
         </header>
+
+        <!--Aside (publicidad de la pagina)-->
+        <aside>
+            <p>Unete ahora a nuestro plan de ahorro</p>
+            <hr>
+            <a href="pagina1.html" target="_blank"><img src="pagina2_multimedia/medac_logo_plata.png"/></a>
+            <p id="plan_plata">Plan Plata</p>
+            <hr>
+            <a href="pagina1.html" target="_blank"><img src="pagina2_multimedia/medac_logo_dorado.png"/></a>
+            <p id="plan_oro">Plan Oro</p>
+            <hr>
+            <a href="pagina1.html" target="_blank"><img src="pagina2_multimedia/medac_logo_platino.png"/></a>
+            <p id="plan_platino">Plan Platino</p>
+            <hr>
+        </aside>
 
         <!--secciones del main (puede tener varios articles)-->
         <article>
-            <!--puede tener un header o no-->
-            <header>
+            <h3>Mi Cuenta</h3>
+            <img src="pagina2_multimedia/imagen.webp" height="145">
 
-            </header>
+        </article>
+        <article>
+            <h3>Informacion de la cuenta</h3>
+            <ul>
+                <li>IBAN </li>
+                <li>Titualar de la cuenta</li>
+                <li>Correo Electronico</li>
+                <li>Numero de telefono</li>
+            </ul>
+
+        </article>
+        <article>
+            <h3>Ultimos movimientos</h3>
+            <ol>
+                <li>El corte ingles S.L 25.80 </li>
+                <li>BIZUM del 676 54 32 45 </li>
+                <li>Nike S.L</li>
+                <li>Mafre Nº poliza 3456435687234 </li>
+                <li>Carrefour S.L</li>
+            </ol>
+
+        </article>
+        <article>
+            <form action="" method="get" autocomplete>
+                <h3>Nueva transferencia</h3>
+                <label form="nombre">Nombre del destinatario:</label>
+                <input name="nombre" type="text" value="" readonly size="30" maxlength="8" pattern="[A-Za-z]{3}"
+                    placeholder="Nombre y apellidos">
+                <br>
+
+                <label form="IBAN">IBAN</label>
+                <input name="IBAN" type="text" value="" readonly size="30" maxlength="8" pattern="[A-Za-z]{3}"
+                    placeholder="IBAN">
+                <br>
+                <label form="Cantidad">Cantidad</label>
+                <input name="Cantidad" type="text" value="" readonly size="30" maxlength="8" pattern="[A-Za-z]{3}"
+                    placeholder="Cantidad">
+
+                <h3>Concepto</h3>
+                <textarea name="message" rows="8" cols="20">Minimo 7 caracteres</textarea>
+
+                <h3>Fecha y hora</h3>
+                <label form="datetime-">Fecha y hora:</label>
+                <input type="datetime-local" name="bdaytime">
+                <h3>Correo electronico</h3>
+                <label form="email">Email:</label>
+                <input type="email" name="email" autocomplete="off">
+                <h3>Terminos y condiciones</h3>
+                <input type="checkbox" name="coche1" value="Bici"> Si, acepto<br>
+                <input type="checkbox" name="coche2" value="Coche"> No acepto
+
         </article>
     </main>
-
-    <!--publicidad-->
-    <aside>
-
-    </aside>
-
     <!--pie de pagina-->
     <footer>
-
+        <p>Están reservados todos los derechos. Queda prohibida la reproducción, el almacenamiento en memoria electrónica o la transmisión
+            por cualquier medio electrónico, mecánico, de fotocopiado, grabación, etc., de la totalidad o parte de esta publicación sin autorización.</p>
+        <ul>
+            <li><a href="pagina5.html" target="_blank"><img src="pagina2_multimedia/telefono_blanco.png"/>Atencion al cliente</a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><img src="pagina2_multimedia/twitter_logo.png"/>Twitter</a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><img src="pagina2_multimedia/instagram_logo.png"/>Instagram</a></li>
+            <li><a href="https://es-es.facebook.com" target="_blank"><img src="pagina2_multimedia/facebook_logo.png"/>Facebook</a></li>
+        </ul>
     </footer>
 </body>
 
