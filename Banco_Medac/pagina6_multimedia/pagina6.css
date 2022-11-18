@@ -181,3 +181,10 @@ footer ul li:hover {
     background-color: #476684;
 }
 /*CSS Personalizado para cada página*/
+main img#persona{
+  width: 15%;
+}
+main h1 {
+  color: #002E4C;
+  font-size: 30px;
+}
