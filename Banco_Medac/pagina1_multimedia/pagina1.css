@@ -181,3 +181,12 @@ footer ul li:hover {
     background-color: #476684;
 }
 /*CSS Personalizado para cada página*/
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #002E4C;
+}
+thead {
+  background-color: #476684;
+}
