@@ -50,7 +50,13 @@ body {
 /*Main*/
 main {
   margin-left: 2%;
+  color:#476684;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1%;
+}
+main h2 {
+  color: #002E4C;
+  padding-top: 1%;
 }
 /*Titulo del banco con las imagenes*/
 main header p {
@@ -175,3 +181,6 @@ footer ul li:hover {
     background-color: #476684;
 }
 /*CSS Personalizado para cada página*/
+article img {
+  width: 35%;
+}
